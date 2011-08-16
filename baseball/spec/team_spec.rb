@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-require "/home/admin/code/oop_traning/baseball/src/team.rb"
-require "/home/admin/code/oop_traning/baseball/src/runner.rb"
+require File.join(File.dirname(__FILE__), 'spec_helper')
 
 describe Team do
   describe "#new" do

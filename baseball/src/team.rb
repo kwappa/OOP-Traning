@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-require "/home/admin/code/oop_traning/baseball/src/runner.rb"
-
 class Team
   def initialize(name)
     raise ArgumentError if name == nil
