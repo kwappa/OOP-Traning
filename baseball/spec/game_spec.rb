@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-require "/home/admin/code/oop_traning/baseball/src/game.rb"
-require "/home/admin/code/oop_traning/baseball/src/team.rb"
-require "/home/admin/code/oop_traning/baseball/src/runner.rb"
-require "/home/admin/code/oop_traning/baseball/src/invalid_operation_error.rb"
+require File.join(File.dirname(__FILE__), 'spec_helper')
 
 describe Game do
   before do

@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-require "/home/admin/code/oop_traning/baseball/src/invalid_operation_error.rb"
-
 class Game
   def initialize
     @inning = 0
