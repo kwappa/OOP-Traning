@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-$: << File.join(File.dirname(File.dirname(__FILE__)), 'src')
+$: << File.join(File.dirname(File.dirname(__FILE__)), 'lib')
 require 'rspec'
 
-require 'invalid_operation_error'
-require 'runner'
-require 'team'
-require 'game'
+require 'baseball'
